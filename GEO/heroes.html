@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="../style.css" />
+
+    <title>HEROES</title>
+  </head>
+  <body class="max-w-7xl p-8 mx-auto bg-gray-600 cursor-none">
+    <header class="flex justify-between items-center relative fixed z-10">
+      <div class="flex lg:block md:block sm:block justify-between items-center">
+        <a
+          href="../steam.html"
+          class="
+            flex
+            items-center
+            text-3xl
+            font-semibold
+            text-gray-400
+            w-24
+            h-14
+            text-gray-200
+            transition
+            text-xl
+            duration-500
+            ease-in-out
+            hover:
+            transform
+            hover:-translate-y-1 hover:scale-110 hover:text-white
+          "
+        >
+          <img class="w-24 h-14" src="../img.dota/steam2.png" alt="" />
+          Steam
+        </a>
+      </div>
+      <div
+        class="
+          absolute
+          right-4
+          text-xl
+          space-x-6
+          hidden
+          lg:block
+          md:block
+          sm:block
+          lg:items-center
+          md:items-center
+          sm:items-center
+        "
+      >
+        <a href="../game.html" class="hover:text-gray-400 text-white">GAME</a>
+        <a href="#" class="hover:text-gray-400 text-white" target="_blank"
+          >HEROES</a
+        >
+        <a href="../dota_2.html" class="hover:text-gray-400 text-white"
+          >DOTA 2</a
+        >
+        <a href="#" class="hover:text-gray-400 text-white">ESPORTS</a>
+      </div>
+      <div class="flex justify-center items-center">
+        <a href="../game.html" class="m-6 block sm:hidden">
+          <svg
+            class="
+              w-6
+              h-6
+              transition
+              text-xl
+              duration-500
+              ease-in-out
+              hover:
+              transform
+              hover:-translate-y-1 hover:scale-110 hover:text-white
+            "
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fas"
+            data-icon="globe-americas"
+            class="svg-inline--fa fa-globe-americas fa-w-16"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 496 512"
+          >
+            <path
+              fill="currentColor"
+              d="M248 8C111.03 8 0 119.03 0 256s111.03 248 248 248 248-111.03 248-248S384.97 8 248 8zm82.29 357.6c-3.9 3.88-7.99 7.95-11.31 11.28-2.99 3-5.1 6.7-6.17 10.71-1.51 5.66-2.73 11.38-4.77 16.87l-17.39 46.85c-13.76 3-28 4.69-42.65 4.69v-27.38c1.69-12.62-7.64-36.26-22.63-51.25-6-6-9.37-14.14-9.37-22.63v-32.01c0-11.64-6.27-22.34-16.46-27.97-14.37-7.95-34.81-19.06-48.81-26.11-11.48-5.78-22.1-13.14-31.65-21.75l-.8-.72a114.792 114.792 0 0 1-18.06-20.74c-9.38-13.77-24.66-36.42-34.59-51.14 20.47-45.5 57.36-82.04 103.2-101.89l24.01 12.01C203.48 89.74 216 82.01 216 70.11v-11.3c7.99-1.29 16.12-2.11 24.39-2.42l28.3 28.3c6.25 6.25 6.25 16.38 0 22.63L264 112l-10.34 10.34c-3.12 3.12-3.12 8.19 0 11.31l4.69 4.69c3.12 3.12 3.12 8.19 0 11.31l-8 8a8.008 8.008 0 0 1-5.66 2.34h-8.99c-2.08 0-4.08.81-5.58 2.27l-9.92 9.65a8.008 8.008 0 0 0-1.58 9.31l15.59 31.19c2.66 5.32-1.21 11.58-7.15 11.58h-5.64c-1.93 0-3.79-.7-5.24-1.96l-9.28-8.06a16.017 16.017 0 0 0-15.55-3.1l-31.17 10.39a11.95 11.95 0 0 0-8.17 11.34c0 4.53 2.56 8.66 6.61 10.69l11.08 5.54c9.41 4.71 19.79 7.16 30.31 7.16s22.59 27.29 32 32h66.75c8.49 0 16.62 3.37 22.63 9.37l13.69 13.69a30.503 30.503 0 0 1 8.93 21.57 46.536 46.536 0 0 1-13.72 32.98zM417 274.25c-5.79-1.45-10.84-5-14.15-9.97l-17.98-26.97a23.97 23.97 0 0 1 0-26.62l19.59-29.38c2.32-3.47 5.5-6.29 9.24-8.15l12.98-6.49C440.2 193.59 448 223.87 448 256c0 8.67-.74 17.16-1.82 25.54L417 274.25z"
+            ></path>
+          </svg>
+        </a>
+
+        <a href="../dota_2.html" class="block sm:hidden">
+          <svg
+            class="
+              w-6
+              h-6
+              transition
+              text-xl
+              duration-500
+              ease-in-out
+              hover:
+              transform
+              hover:-translate-y-1 hover:scale-110 hover:text-white
+            "
+            fill=""
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            ></path>
+          </svg>
+        </a>
+      </div>
+    </header>
+    <section class="w-full">
+      <div class="w-full mx-auto">
+        <div class="">
+          <div style="height: 500px" class="relative">
+            <div class="money">
+              <h1
+                class="
+                  text-white text-xl
+                  absolute
+                  bottom-7
+                  left-7
+                  xl\:font-thin
+                "
+              >
+                Dota 2 is a multiplayer online battle arena (MOBA) game like
+                League of Legends, with players able to choose from more than
+                100 playable heroes. Two teams of five must compete with one
+                another – the winner being the first to enter the opposing
+                team's stronghold and destroy their ancient.
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="w-full bgi3">
+      <div class="w-11/12 mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-7">
+          <div class="overflow-hidden my-10 bg-white bg-opacity-25">
+            <div style="height: 200px" class="relative">
+              <img
+                class="
+                  absolute
+                  w-full
+                  h-full
+                  object-fill
+                  transition
+                  text-xl
+                  duration-500
+                  ease-in-out
+                  hover:
+                  transform
+                  hover:-translate-y-1 hover:scale-110
+                "
+                src="../img.dota/dota2.jfif"
+                alt=""
+              />
+            </div>
+            <div class="w-11/12 mx-auto">
+              <h1 class="text-lg font-semibold py-3">
+                O‘zbekistonda 1-darajali oyin
+              </h1>
+            </div>
+            <div class="flex space-x-7 justify-end">
+              <p>❤15м</p>
+            </div>
+          </div>
+          <div class="overflow-hidden my-10 bg-white bg-opacity-25">
+            <div style="height: 200px" class="relative">
+              <img
+                class="
+                  absolute
+                  w-full
+                  h-full
+                  object-fill
+                  transition
+                  text-xl
+                  duration-500
+                  ease-in-out
+                  hover:
+                  transform
+                  hover:-translate-y-1 hover:scale-110
+                "
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_K1eIO4-78gKWtRQPnkJNanG4Dx1lVTZTMw&usqp=CAU"
+                alt=""
+              />
+              <div class="relative"></div>
+            </div>
+            <div class="w-11/12 mx-auto">
+              <h1 class="text-lg font-semibold py-3">Marsr</h1>
+            </div>
+            <div class="flex space-x-7 justify-end">
+              <p>❤18м</p>
+            </div>
+          </div>
+          <div class="overflow-hidden my-10 bg-white bg-opacity-25">
+            <div style="height: 200px" class="relative">
+              <img
+                class="
+                  absolute
+                  w-full
+                  h-full
+                  object-fill
+                  transition
+                  text-xl
+                  duration-500
+                  ease-in-out
+                  hover:
+                  transform
+                  hover:-translate-y-1 hover:scale-110
+                "
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhg4macWaaFVHP5-56WwqB7WE5ygTjYPI0bA&usqp=CAU"
+                alt=""
+              />
+              <div class="relative"></div>
+            </div>
+            <div class="w-11/12 mx-auto">
+              <h1 class="text-lg font-semibold py-3">Shadow fight</h1>
+            </div>
+            <div class="flex space-x-7 justify-end">
+              <p>❤25м</p>
+            </div>
+          </div>
+          <div class="overflow-hidden my-10 bg-white bg-opacity-25">
+            <div style="height: 200px" class="relative">
+              <img
+                class="
+                  absolute
+                  w-full
+                  h-full
+                  object-fill
+                  transition
+                  text-xl
+                  duration-500
+                  ease-in-out
+                  hover:
+                  transform
+                  hover:-translate-y-1 hover:scale-110
+                "
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNiXB5iYi9raAuX6VnBUp0xM67D7QUg8fItQ&usqp=CAU"
+                alt=""
+              />
+              <div class="relative"></div>
+            </div>
+            <div class="w-11/12 mx-auto">
+              <h1 class="text-lg font-semibold py-3">Monkey King</h1>
+            </div>
+            <div class="flex space-x-7 justify-end">
+              <p>❤11м</p>
+            </div>
+          </div>
+          <div class="overflow-hidden my-10 bg-white bg-opacity-25">
+            <div style="height: 200px" class="relative">
+              <img
+                class="
+                  absolute
+                  w-full
+                  h-full
+                  object-fill
+                  transition
+                  text-xl
+                  duration-500
+                  ease-in-out
+                  hover:
+                  transform
+                  hover:-translate-y-1 hover:scale-110
+                "
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHXhvGs2XEZg8ZVON-txUrBxjkV2z2wNJUVw&usqp=CAU"
+                alt=""
+              />
+              <div class="relative"></div>
+            </div>
+            <div class="w-11/12 mx-auto">
+              <h1 class="text-lg font-semibold py-3">Invoker</h1>
+            </div>
+            <div class="flex space-x-7 justify-end">
+              <p>❤158м</p>
+            </div>
+          </div>
+          <div class="overflow-hidden my-10 bg-white bg-opacity-25">
+            <div style="height: 200px" class="relative">
+              <img
+                class="
+                  absolute
+                  w-full
+                  h-full
+                  object-fill
+                  transition
+                  text-xl
+                  duration-500
+                  ease-in-out
+                  hover:
+                  transform
+                  hover:-translate-y-1 hover:scale-110
+                "
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWPKjFpNHXy_5HgNoPbS_YAxMuUWNUM40PQA&usqp=CAU"
+                alt=""
+              />
+              <div class="relative"></div>
+            </div>
+            <div class="w-11/12 mx-auto">
+              <h1 class="text-lg font-semibold py-3">Lina</h1>
+            </div>
+            <div class="flex space-x-7 justify-end">
+              <p>❤155м</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="w-full">
+      <div class="w-11/12 mx-auto">
+        <div class="md:flex py-16 justify-between items-center">
+          <div class="space-y-5 space-x-10">
+            <a
+              href="https://dota2.ru/"
+              target="_blank"
+              class="
+                text-gray-400
+                h-10
+                transition
+                font-bold
+                duration-500
+                ease-in-out
+                hover:
+                transform
+                hover:-translate-y-1 hover:scale-110
+              "
+              >DOTA 2</a
+            >
+            <p></p>
+            <div class="flex space-x-4">
+              <a href="https://www.instagram.com/dota2/?hl=ru" target="_blank">
+                <svg
+                  class="
+                    h-10
+                    transition
+                    text-xl
+                    duration-500
+                    ease-in-out
+                    hover:
+                    transform
+                    hover:-translate-y-1 hover:scale-110
+                  "
+                  enable-background="new 0 0 512 512"
+                  id="Layer_1"
+                  version="1.1"
+                  viewBox="0 0 512 512"
+                  xml:space="preserve"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <g>
+                    <path
+                      d="M505,257c0,34.8-0.7,69.7,0.2,104.5c1.5,61.6-37.2,109.2-86.5,130.4c-19.8,8.5-40.6,13-62.1,13c-67.3,0.1-134.7,1-202-0.3   c-50.7-1-92.4-22.2-122.3-64c-15.7-22-23.2-47-23.2-74.1c0-71.7,0-143.3,0-215c0-58.5,28.5-99.4,79.1-126C110.2,14,134.1,9.1,159,9   c65.3,0,130.7-0.4,196,0.2c50.7,0.4,93,19.8,124.2,60.6c17.4,22.8,25.8,49,25.8,77.8C505,184,505,220.5,505,257z M46,257   c0,36.7,0,73.3,0,110c0,16.4,3.8,31.8,12.3,45.7c22.3,36.5,56,54.3,97.8,55c67.1,1,134.3,0.4,201.5,0.2c16.5,0,32.5-3.4,47.4-10.5   c40.6-19.4,63.3-50.3,63.1-96.7c-0.4-71-0.1-142-0.1-213c0-20.1-5.7-38.5-17.6-54.7c-23-31.1-54.8-46.4-92.8-46.8   c-67-0.8-134-0.3-201-0.2c-14.3,0-28.1,2.9-41.5,7.9c-36.8,13.7-71,48.4-69.4,99.5C46.9,188,46,222.5,46,257z"
+                    />
+                    <path
+                      d="M257.6,363c-64.5,0-116.5-51.4-116.6-115.4c-0.1-63,52.3-114.6,116.4-114.6c64.3-0.1,116.5,51.4,116.6,114.9   C374,311.3,321.9,362.9,257.6,363z M257.6,326c43.9,0,79.5-35.1,79.4-78.3c-0.1-42.8-35.7-77.8-79.4-77.8   c-43.9,0-79.7,34.9-79.7,78C178,291.1,213.7,326.1,257.6,326z"
+                    />
+                    <path
+                      d="M387.5,98c13.5,0,24.5,11.5,24.5,25.6c-0.1,14.1-11.2,25.5-24.7,25.4c-13.3-0.1-24.2-11.5-24.2-25.3   C363,109.6,374,98,387.5,98z"
+                    />
+                  </g>
+                </svg>
+              </a>
+              <a
+                href="https://www.apkmonk.com/app/com.dota2stickerapp/"
+                target="_blank"
+              >
+                <svg
+                  class="
+                    h-10
+                    transition
+                    text-xl
+                    duration-500
+                    ease-in-out
+                    hover:
+                    transform
+                    hover:-translate-y-1 hover:scale-110
+                  "
+                  version="1.1"
+                  id="Capa_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  width="90px"
+                  height="90px"
+                  viewBox="0 0 90 90"
+                  style="enable-background: new 0 0 90 90"
+                  xml:space="preserve"
+                >
+                  <g>
+                    <path
+                      id="WhatsApp"
+                      d="M90,43.841c0,24.213-19.779,43.841-44.182,43.841c-7.747,0-15.025-1.98-21.357-5.455L0,90l7.975-23.522
+               c-4.023-6.606-6.34-14.354-6.34-22.637C1.635,19.628,21.416,0,45.818,0C70.223,0,90,19.628,90,43.841z M45.818,6.982
+               c-20.484,0-37.146,16.535-37.146,36.859c0,8.065,2.629,15.534,7.076,21.61L11.107,79.14l14.275-4.537
+               c5.865,3.851,12.891,6.097,20.437,6.097c20.481,0,37.146-16.533,37.146-36.857S66.301,6.982,45.818,6.982z M68.129,53.938
+               c-0.273-0.447-0.994-0.717-2.076-1.254c-1.084-0.537-6.41-3.138-7.4-3.495c-0.993-0.358-1.717-0.538-2.438,0.537
+               c-0.721,1.076-2.797,3.495-3.43,4.212c-0.632,0.719-1.263,0.809-2.347,0.271c-1.082-0.537-4.571-1.673-8.708-5.333
+               c-3.219-2.848-5.393-6.364-6.025-7.441c-0.631-1.075-0.066-1.656,0.475-2.191c0.488-0.482,1.084-1.255,1.625-1.882
+               c0.543-0.628,0.723-1.075,1.082-1.793c0.363-0.717,0.182-1.344-0.09-1.883c-0.27-0.537-2.438-5.825-3.34-7.977
+               c-0.902-2.15-1.803-1.792-2.436-1.792c-0.631,0-1.354-0.09-2.076-0.09c-0.722,0-1.896,0.269-2.889,1.344
+               c-0.992,1.076-3.789,3.676-3.789,8.963c0,5.288,3.879,10.397,4.422,11.113c0.541,0.716,7.49,11.92,18.5,16.223
+               C58.2,65.771,58.2,64.336,60.186,64.156c1.984-0.179,6.406-2.599,7.312-5.107C68.398,56.537,68.398,54.386,68.129,53.938z"
+                    />
+                  </g>
+                </svg>
+              </a>
+              <a
+                href="https://twitter.com/DOTA2?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                target="_blank"
+              >
+                <svg
+                  class="
+                    h-10
+                    transition
+                    text-xl
+                    duration-500
+                    ease-in-out
+                    hover:
+                    transform
+                    hover:-translate-y-1 hover:scale-110
+                  "
+                   version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  viewBox="0 0 324.142 324.142" style="enable-background:new 0 0 324.142 324.142;" xml:space="preserve">
+               <g>
+                 <g>
+                   <g>
+                     <path d="M162.07,0C73.163,0,0.83,72.333,0.83,161.241c0,37.076,12.788,73.004,36.1,101.676
+                       c-6.651,16.758-17.789,31.247-32.401,42.089c-2.238,1.66-3.37,4.424-2.941,7.178c0.429,2.753,2.349,5.042,4.986,5.942
+                       c11.683,3.992,23.856,6.016,36.182,6.016c19.572,0,38.698-5.093,55.569-14.763c20.158,8.696,41.584,13.103,63.747,13.103
+                       c88.909,0,161.241-72.333,161.241-161.242C323.313,72.333,250.979,0,162.07,0z M162.07,307.483
+                       c-21.32,0-41.881-4.492-61.111-13.35c-2.292-1.055-4.959-0.889-7.101,0.444c-15.314,9.529-32.985,14.565-51.105,14.565
+                       c-6.053,0-12.065-0.564-17.981-1.683c12.52-12.121,22.013-26.951,27.787-43.547c0.879-2.526,0.346-5.328-1.398-7.355
+                       C28.377,230.07,15.83,196.22,15.83,161.241C15.83,80.604,81.434,15,162.07,15s146.241,65.604,146.241,146.241
+                       C308.313,241.879,242.708,307.483,162.07,307.483z"/>
+                     <path d="M253.389,102.125c0.572-1.293,1.08-2.619,1.521-3.974c0.963-2.96-0.002-6.209-2.427-8.162
+                       c-2.425-1.954-5.804-2.204-8.492-0.633c-5.124,2.998-10.619,5.252-16.38,6.723c-7.721-6.577-17.7-10.282-27.988-10.282
+                       c-23.436,0-42.529,18.709-42.768,41.793c-22.825-3.3-43.8-14.938-58.529-32.722c-1.558-1.88-3.944-2.883-6.365-2.693
+                       c-2.434,0.192-4.622,1.556-5.865,3.657c-3.812,6.439-5.826,13.797-5.826,21.278c0,6.252,1.391,12.307,3.974,17.799
+                       c-0.197,0.094-0.391,0.198-0.581,0.311c-2.277,1.351-3.673,3.803-3.673,6.45v0.437c0,11.941,5.121,22.946,13.467,30.728
+                       c-1.136,1.855-1.422,4.136-0.734,6.244c3.501,10.73,11.073,19.349,20.719,24.391c-7.661,3.141-15.915,4.764-24.452,4.764
+                       c-2.533,0-5.072-0.146-7.548-0.436c-3.48-0.403-6.776,1.649-7.942,4.953c-1.166,3.303,0.109,6.973,3.072,8.841
+                       c17.386,10.961,37.47,16.754,58.082,16.754c40.536,0,65.935-18.863,80.104-34.687c17.643-19.703,27.761-45.804,27.761-71.609
+                       c0-0.278,0-0.55-0.002-0.814c6.27-4.956,11.713-10.811,16.217-17.45c1.875-2.764,1.696-6.436-0.438-9.004
+                       C257.03,103.259,255.259,102.342,253.389,102.125z M227.518,132.05c0,22.162-8.724,44.615-23.936,61.603
+                       c-12.129,13.546-33.933,29.693-68.929,29.693c-8.136,0-16.176-1.046-23.941-3.087c9.592-2.706,18.602-7.229,26.673-13.449
+                       c2.523-1.944,3.543-5.27,2.543-8.294s-3.8-5.087-6.985-5.145c-7.847-0.143-15.056-3.501-20.096-8.958
+                       c1.648-0.243,3.28-0.58,4.887-1.01c3.369-0.903,5.67-4.008,5.555-7.493c-0.116-3.485-2.619-6.431-6.04-7.109
+                       c-9.1-1.801-16.438-7.918-19.973-15.899c1.962,0.339,3.948,0.543,5.94,0.61c3.373,0.108,6.378-2.023,7.396-5.224
+                       c1.018-3.201-0.217-6.688-3.021-8.536c-7.717-5.084-12.324-13.548-12.324-22.642c0-1.125,0.071-2.246,0.211-3.355
+                       c18.659,17.722,43.334,28.378,69.408,29.667c2.343,0.117,4.62-0.878,6.128-2.685s2.081-4.217,1.545-6.51
+                       c-0.471-2.02-0.71-4.105-0.71-6.199c0-15.015,12.458-27.23,27.771-27.23c7.683,0,15.085,3.149,20.312,8.64
+                       c1.464,1.54,3.483,2.381,5.582,2.328c-0.833,1.72-1.005,3.745-0.361,5.662c0.755,2.246,2.491,3.934,4.612,4.683
+                       c-1.569,1.488-2.434,3.597-2.331,5.791C227.492,129.114,227.518,130.432,227.518,132.05z"/>
+                   </g>
+                 </g>
+               </g>
+            </svg>
+              </a>
+              <a href="https://www.facebook.com/dota2/" target="_blank">
+                <svg
+                  class="
+                  ml-4
+                    h-10
+                    transition
+                    text-xl
+                    duration-500
+                    ease-in-out
+                    hover:
+                    transform
+                    hover:-translate-y-1 hover:scale-110"
+                    version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    viewBox="0 0 314.652 314.652" style="enable-background:new 0 0 314.652 314.652;" xml:space="preserve">
+                 <g>
+                   <path d="M157.326,0C70.576,0,0,70.576,0,157.326s70.576,157.326,157.326,157.326s157.326-70.576,157.326-157.326
+                     S244.076,0,157.326,0z M157.326,296.652C80.501,296.652,18,234.15,18,157.326S80.501,18,157.326,18s139.326,62.502,139.326,139.326
+                     S234.151,296.652,157.326,296.652z"/>
+                   <path d="M193.764,71.952H172.43c-17.461,0-31.667,14.206-31.667,31.667v24h-19.875c-4.971,0-9,4.029-9,9s4.029,9,9,9h19.875v83.333
+                     c0,4.971,4.029,9,9,9s9-4.029,9-9v-83.333h30.75c4.971,0,9-4.029,9-9s-4.029-9-9-9h-30.75v-24c0-7.536,6.131-13.667,13.667-13.667
+                     h21.333c4.971,0,9-4.029,9-9S198.734,71.952,193.764,71.952z"/>
+                 </g>
+                
+                 </svg>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="md:flex md:space-x-20">
+            <div
+              class="
+                flex flex-row
+                space-y-3 space-x-3
+                hover:text-gray-200
+                items-center
+                m-3
+                md:m-0
+              "
+            >
+              <h1
+                class="
+                  text-lg
+                  font-bold
+                  text-gray-300
+                  transition
+                  text-xl
+                  duration-500
+                  ease-in-out
+                  hover:
+                  transform
+                  hover:-translate-y-1 hover:scale-110
+                "
+              >
+                Qo’shimcha
+              </h1>
+              <a
+                href="#"
+                class="
+                  h-10
+                  hover:text-gray-200
+                  text-gray-300
+                  transition
+                  text-xl
+                  duration-500
+                  ease-in-out
+                  hover:
+                  transform
+                  hover:-translate-y-1 hover:scale-110
+                "
+                >Heroes</a
+              >
+              <a
+                href="#"
+                class="
+                  h-10
+                  hover:text-gray-200
+                  text-gray-300
+                  transition
+                  text-xl
+                  duration-500
+                  ease-in-out
+                  hover:
+                  transform
+                  hover:-translate-y-1 hover:scale-110
+                "
+                >game</a
+              >
+              <a
+                href="https://dota2.ru/news/"
+                class="
+                  h-10
+                  hover:text-gray-200
+                  text-gray-300
+                  transition
+                  text-xl
+                  duration-500
+                  ease-in-out
+                  hover:
+                  transform
+                  hover:-translate-y-1 hover:scale-110
+                "
+                >News</a
+              >
+              <a
+                href="https://ru.wikipedia.org/wiki/Dota_2"
+                class="
+                  h-10
+                  hover:text-gray-200
+                  text-gray-300
+                  transition
+                  text-xl
+                  duration-500
+                  ease-in-out
+                  hover:
+                  transform
+                  hover:-translate-y-1 hover:scale-110
+                "
+                >About</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
